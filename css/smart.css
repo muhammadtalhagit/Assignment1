@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Cardo', serif;
+    font-family: 'Unna', serif;
+    line-height: 25px;
+
+
+
+  }
+  
+  .navbar-expand{
+    margin-bottom:19px ;
+  }
+
+  .nav-link {
+    color: black;
+     
+    font-weight:bolder;
+    margin-right: 50px;
+    font-size: 15px;
+
+  }
+
+  .nav-link:hover {
+    color: darkgoldenrod;
+     
+    transition: 1s;
+    width: 80%;
+
+  }
+
+  .navbar .logo {
+    display: flex;
+    margin-left: 2px;
+    margin-top: -13px; 
+justify-content: center;
+
+  }
+
+
+  .container-fluid {
+    justify-content: flex-end;
+    color: beige;
+  }
+
+  
+
+  .dropdown-item:hover {
+    color: white;
+    background-color: darkgoldenrod;
+    box-shadow: 50px solid darkgoldenrod;
+    transition: 1s;
+    width: 150px;
+
+  }
+  .navbar-expand{
+    justify-content: center;
+  }
+  .container1-fluid .carousel-item ::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: -10;
+    
+  }
+  
+  .container1-fluid .carousel-item .container{
+    background-color: blue;
+    position: absolute;
+    
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+  
+    z-index: -10;
+  }
+  .container1-fluid .carousel-item video{
+    margin-top: -60px;
+        }
+        marquee{
+background-color: black;
+color: white;
+}

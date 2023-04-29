@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Cardo', serif;
+    font-family: 'Unna', serif;
+    line-height: 25px;
+
+
+
+  }
+
+  .navbar-expand {
+    margin-bottom: 19px;
+  }
+
+  .nav-link {
+    color: black;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 50px;
+    font-size: 15px;
+
+  }
+
+  .nav-link:hover {
+    color: darkgoldenrod;
+    /* border-bottom: 2px solid black; */
+    transition: 1s;
+    width: 80%;
+
+  }
+
+  .navbar .logo {
+    display: flex;
+    margin-left: 2px;
+    margin-top: -13px;
+    justify-content: center;
+
+  }
+
+
+  .container1-fluid {
+    justify-content: flex-end;
+    color: beige;
+  }
+
+
+
+  .dropdown-item:hover {
+    color: white;
+    background-color: darkgoldenrod;
+    box-shadow: 50px solid darkgoldenrod;
+    transition: 1s;
+    width: 150px;
+
+  }
+
+  .navbar-expand {
+    justify-content: center;
+  }
+  .btn {
+      background-color: white;
+      color: black;
+      font-weight: 500;
+      box-shadow: 0px 0px 0px 0px gray, 0px 4px 0px 0px gray;
+    }
+
+    .btn:hover {
+      background-color: gray;
+      color: black;
+      transition: 1s;
+    }
+
+    .card {
+      box-shadow: 10px 10px 10px 0px gray, 0px 4px 16px 0px gray;
+      transition: 1s;
+    }
+    .card:hover{
+         transform: scale(1.3);
+         z-index: 2;
+    }
+
+    .card-body {
+      transform: scale(1.3s);
+    }
+
+    .card:hover img {
+      /* border: 2px solid black; */
+      box-shadow: 10px 10px 25px black;
+      transform: translate(0px, -8px);
+      transition: 1s;
+    }
+
+    .card-body:hover {
+      background-color: burlywood;
+    }
+    marquee{
+  background-color: black;
+  color: white;
+}
+.img{
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    transition: 1s;
+}
+.col-md img:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
